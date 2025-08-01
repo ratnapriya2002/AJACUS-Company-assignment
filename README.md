@@ -2,7 +2,7 @@
 
 A modern, responsive web application built with **React.js** that allows patients to view doctors, check their availability, and book appointments seamlessly.  
 
-👉 **Live Demo:** [https://your-netlify-url.netlify.app](https://your-netlify-url.netlify.app)
+👉 **Live Demo:** [https://your-netlify-url.netlify.app](https://leafy-cuchufli-7f25b9.netlify.app/)
 
 ---
 

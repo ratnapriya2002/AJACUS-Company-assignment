@@ -1,17 +1,15 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import LandingPage from "./pages/LandingPage";
-import DoctorProfile from "./pages/DoctorProfile";
-import BookAppointment from "./pages/BookAppointment";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/pages/Home";
+import Ingredient from "./components/pages/Ingredient";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/doctor/:id" element={<DoctorProfile />} />
-        <Route path="/book/:id" element={<BookAppointment />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/ingredient/:id" element={<Ingredient />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 

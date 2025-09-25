@@ -54,7 +54,7 @@ employee-directory/
 1. Clone the repository:
 
 
-git clone https://github.com/your-username/employee-directory.git
+git clone https://github.com/ratnapriya2002/AJACUS-Company-assignment
 cd employee-directory
 Install dependencies:
 
